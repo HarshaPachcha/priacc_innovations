@@ -1,0 +1,35 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 90,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "connectionTimeout": 80,
+            "name": "Priacc Local",
+            "database": "Priacc",
+            "username": "Priacc",
+            "password": "priacc123"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Priacc_project",
+            "database": "enterprise_data",
+            "username": "Priacc",
+            "password": "Priacc123"
+        }
+    ]
+}
