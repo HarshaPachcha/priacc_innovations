@@ -16,10 +16,10 @@ st.sidebar.header("🧠 Employee Attrition Prediction")
 # ----------------------------------------------------------
 @st.cache_data
 def load_data():
-    attrition = pd.read_csv("C:\\Users\\harsh\\OneDrive\\Desktop\\CSV\\Employee Attrition.csv")
-    fraud = pd.read_csv("C:\\Users\\harsh\\OneDrive\\Desktop\\CSV\\Fraud Detection.csv")
+    attrition = pd.read_csv("data/Employee Attrition.csv")
+    fraud = pd.read_csv("data/Fraud Detection.csv")
     sales = pd.read_csv(
-        r"C:\Users\harsh\OneDrive\Desktop\CSV\Superstore Sales.csv",
+        "data/Superstore Sales.csv",
         parse_dates=['Order Date'],
         dayfirst=True
     )
